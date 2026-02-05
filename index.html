@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QUAY SỐ VLR</title>
+
+  <script src="./assets/jquery.js"></script>
+  <link rel="stylesheet" href="./assets/main.css" />
+
+  <style>
+    @font-face {
+      font-family: "SVN-AVO";
+      src: local("SVN-AVO"), url("./assets/SVN-AVO BOLD.TTF") format("truetype");
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="assets/background/video1.mp4" type="video/mp4" />
+  </video>
+
+  <div id="digits">- - -</div>
+  <div id="digits2"></div>
+
+  <!-- Nút bấm (div) 
+    <div id="start" title="Start">START</div>
+    <div id="stop" title="Stop">STOP</div>
+        -->
+
+  <canvas id="fireworksCanvas"></canvas>
+  <div id="number-range"></div>
+  <script src="./assets/background/background_list.js"></script>
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>
